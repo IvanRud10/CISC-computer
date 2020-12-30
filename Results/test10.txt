@@ -1,0 +1,173 @@
+memory[0]=66060
+memory[1]=66574
+memory[2]=168960
+memory[3]=196608
+memory[4]=5126
+memory[5]=196608
+memory[6]=4
+memory[7]=2
+
+
+@@@
+state:
+	pc 0
+	memory:
+		mem[ 0 ] 66060
+		mem[ 1 ] 66574
+		mem[ 2 ] 168960
+		mem[ 3 ] 196608
+		mem[ 4 ] 5126
+		mem[ 5 ] 196608
+		mem[ 6 ] 4
+		mem[ 7 ] 2
+	registers:
+		reg[ 0 ] 0
+		reg[ 1 ] 0
+		reg[ 2 ] 0
+		reg[ 3 ] 0
+		reg[ 4 ] 0
+		reg[ 5 ] 0
+		reg[ 6 ] 0
+		reg[ 7 ] 0
+		Base: 0
+	Flags:
+		CF 0
+end state
+bit = 0
+
+@@@
+state:
+	pc 1
+	memory:
+		mem[ 0 ] 66060
+		mem[ 1 ] 66574
+		mem[ 2 ] 168960
+		mem[ 3 ] 196608
+		mem[ 4 ] 5126
+		mem[ 5 ] 196608
+		mem[ 6 ] 4
+		mem[ 7 ] 2
+	registers:
+		reg[ 0 ] 0
+		reg[ 1 ] 4
+		reg[ 2 ] 0
+		reg[ 3 ] 0
+		reg[ 4 ] 0
+		reg[ 5 ] 0
+		reg[ 6 ] 0
+		reg[ 7 ] 0
+		Base: 0
+	Flags:
+		CF 0
+end state
+bit = 0
+
+@@@
+state:
+	pc 2
+	memory:
+		mem[ 0 ] 66060
+		mem[ 1 ] 66574
+		mem[ 2 ] 168960
+		mem[ 3 ] 196608
+		mem[ 4 ] 5126
+		mem[ 5 ] 196608
+		mem[ 6 ] 4
+		mem[ 7 ] 2
+	registers:
+		reg[ 0 ] 0
+		reg[ 1 ] 4
+		reg[ 2 ] 2
+		reg[ 3 ] 0
+		reg[ 4 ] 0
+		reg[ 5 ] 0
+		reg[ 6 ] 0
+		reg[ 7 ] 0
+		Base: 0
+	Flags:
+		CF 0
+end state
+bit = 0
+
+@@@
+state:
+	pc 4
+	memory:
+		mem[ 0 ] 66060
+		mem[ 1 ] 66574
+		mem[ 2 ] 168960
+		mem[ 3 ] 196608
+		mem[ 4 ] 5126
+		mem[ 5 ] 196608
+		mem[ 6 ] 4
+		mem[ 7 ] 2
+	registers:
+		reg[ 0 ] 0
+		reg[ 1 ] 4
+		reg[ 2 ] 3
+		reg[ 3 ] 0
+		reg[ 4 ] 0
+		reg[ 5 ] 0
+		reg[ 6 ] 0
+		reg[ 7 ] 0
+		Base: 0
+	Flags:
+		CF 0
+end state
+bit = 0
+
+@@@
+state:
+	pc 5
+	memory:
+		mem[ 0 ] 66060
+		mem[ 1 ] 66574
+		mem[ 2 ] 168960
+		mem[ 3 ] 196608
+		mem[ 4 ] 5126
+		mem[ 5 ] 196608
+		mem[ 6 ] 4
+		mem[ 7 ] 2
+	registers:
+		reg[ 0 ] 0
+		reg[ 1 ] 4
+		reg[ 2 ] 3
+		reg[ 3 ] 7
+		reg[ 4 ] 0
+		reg[ 5 ] 0
+		reg[ 6 ] 0
+		reg[ 7 ] 0
+		Base: 0
+	Flags:
+		CF 0
+end state
+bit = 0
+machine halted
+total of 5 instructions executed
+final state of machine:
+
+@@@
+state:
+	pc 6
+	memory:
+		mem[ 0 ] 66060
+		mem[ 1 ] 66574
+		mem[ 2 ] 168960
+		mem[ 3 ] 196608
+		mem[ 4 ] 5126
+		mem[ 5 ] 196608
+		mem[ 6 ] 4
+		mem[ 7 ] 2
+	registers:
+		reg[ 0 ] 0
+		reg[ 1 ] 4
+		reg[ 2 ] 3
+		reg[ 3 ] 7
+		reg[ 4 ] 0
+		reg[ 5 ] 0
+		reg[ 6 ] 0
+		reg[ 7 ] 0
+		Base: 0
+	Flags:
+		CF 0
+end state
