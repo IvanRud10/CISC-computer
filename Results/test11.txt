@@ -1,0 +1,303 @@
+memory[0]=66065
+memory[1]=66579
+memory[2]=9220
+memory[3]=431106
+memory[4]=196608
+memory[5]=463875
+memory[6]=131574
+memory[7]=196608
+memory[8]=6
+memory[9]=2
+
+
+@@@
+state:
+	pc 0
+	memory:
+		mem[ 0 ] 66065
+		mem[ 1 ] 66579
+		mem[ 2 ] 9220
+		mem[ 3 ] 431106
+		mem[ 4 ] 196608
+		mem[ 5 ] 463875
+		mem[ 6 ] 131574
+		mem[ 7 ] 196608
+		mem[ 8 ] 6
+		mem[ 9 ] 2
+	registers:
+		reg[ 0 ] 0
+		reg[ 1 ] 0
+		reg[ 2 ] 0
+		reg[ 3 ] 0
+		reg[ 4 ] 0
+		reg[ 5 ] 0
+		reg[ 6 ] 0
+		reg[ 7 ] 0
+		Base: 0
+	Flags:
+		CF 0
+end state
+bit = 1
+
+@@@
+state:
+	pc 1
+	memory:
+		mem[ 0 ] 66065
+		mem[ 1 ] 66579
+		mem[ 2 ] 9220
+		mem[ 3 ] 431106
+		mem[ 4 ] 196608
+		mem[ 5 ] 463875
+		mem[ 6 ] 131574
+		mem[ 7 ] 196608
+		mem[ 8 ] 6
+		mem[ 9 ] 2
+	registers:
+		reg[ 0 ] 0
+		reg[ 1 ] 6
+		reg[ 2 ] 0
+		reg[ 3 ] 0
+		reg[ 4 ] 0
+		reg[ 5 ] 0
+		reg[ 6 ] 0
+		reg[ 7 ] 0
+		Base: 0
+	Flags:
+		CF 0
+end state
+bit = 1
+
+@@@
+state:
+	pc 2
+	memory:
+		mem[ 0 ] 66065
+		mem[ 1 ] 66579
+		mem[ 2 ] 9220
+		mem[ 3 ] 431106
+		mem[ 4 ] 196608
+		mem[ 5 ] 463875
+		mem[ 6 ] 131574
+		mem[ 7 ] 196608
+		mem[ 8 ] 6
+		mem[ 9 ] 2
+	registers:
+		reg[ 0 ] 0
+		reg[ 1 ] 6
+		reg[ 2 ] 2
+		reg[ 3 ] 0
+		reg[ 4 ] 0
+		reg[ 5 ] 0
+		reg[ 6 ] 0
+		reg[ 7 ] 0
+		Base: 0
+	Flags:
+		CF 0
+end state
+bit = 0
+
+@@@
+state:
+	pc 3
+	memory:
+		mem[ 0 ] 66065
+		mem[ 1 ] 66579
+		mem[ 2 ] 9220
+		mem[ 3 ] 431106
+		mem[ 4 ] 196608
+		mem[ 5 ] 463875
+		mem[ 6 ] 131574
+		mem[ 7 ] 196608
+		mem[ 8 ] 6
+		mem[ 9 ] 2
+	registers:
+		reg[ 0 ] 0
+		reg[ 1 ] 6
+		reg[ 2 ] 4
+		reg[ 3 ] 0
+		reg[ 4 ] 0
+		reg[ 5 ] 0
+		reg[ 6 ] 0
+		reg[ 7 ] 0
+		Base: 0
+	Flags:
+		CF 0
+end state
+bit = 0
+
+@@@
+state:
+	pc 5
+	memory:
+		mem[ 0 ] 66065
+		mem[ 1 ] 66579
+		mem[ 2 ] 9220
+		mem[ 3 ] 431106
+		mem[ 4 ] 196608
+		mem[ 5 ] 463875
+		mem[ 6 ] 131574
+		mem[ 7 ] 196608
+		mem[ 8 ] 6
+		mem[ 9 ] 2
+	registers:
+		reg[ 0 ] 0
+		reg[ 1 ] 6
+		reg[ 2 ] 4
+		reg[ 3 ] 0
+		reg[ 4 ] 0
+		reg[ 5 ] 0
+		reg[ 6 ] 0
+		reg[ 7 ] 0
+		Base: 0
+	Flags:
+		CF 0
+end state
+bit = 1
+
+@@@
+state:
+	pc 6
+	memory:
+		mem[ 0 ] 66065
+		mem[ 1 ] 66579
+		mem[ 2 ] 9220
+		mem[ 3 ] 431106
+		mem[ 4 ] 196608
+		mem[ 5 ] 463875
+		mem[ 6 ] 131574
+		mem[ 7 ] 196608
+		mem[ 8 ] 6
+		mem[ 9 ] 2
+	registers:
+		reg[ 0 ] 0
+		reg[ 1 ] 6
+		reg[ 2 ] 4
+		reg[ 3 ] 0
+		reg[ 4 ] 0
+		reg[ 5 ] 0
+		reg[ 6 ] 0
+		reg[ 7 ] 0
+		Base: 0
+	Flags:
+		CF 0
+end state
+bit = 0
+
+@@@
+state:
+	pc 2
+	memory:
+		mem[ 0 ] 66065
+		mem[ 1 ] 66579
+		mem[ 2 ] 9220
+		mem[ 3 ] 431106
+		mem[ 4 ] 196608
+		mem[ 5 ] 463875
+		mem[ 6 ] 131574
+		mem[ 7 ] 196608
+		mem[ 8 ] 6
+		mem[ 9 ] 2
+	registers:
+		reg[ 0 ] 0
+		reg[ 1 ] 6
+		reg[ 2 ] 4
+		reg[ 3 ] 0
+		reg[ 4 ] 0
+		reg[ 5 ] 0
+		reg[ 6 ] 0
+		reg[ 7 ] 0
+		Base: 0
+	Flags:
+		CF 0
+end state
+bit = 0
+
+@@@
+state:
+	pc 3
+	memory:
+		mem[ 0 ] 66065
+		mem[ 1 ] 66579
+		mem[ 2 ] 9220
+		mem[ 3 ] 431106
+		mem[ 4 ] 196608
+		mem[ 5 ] 463875
+		mem[ 6 ] 131574
+		mem[ 7 ] 196608
+		mem[ 8 ] 6
+		mem[ 9 ] 2
+	registers:
+		reg[ 0 ] 0
+		reg[ 1 ] 6
+		reg[ 2 ] 8
+		reg[ 3 ] 0
+		reg[ 4 ] 0
+		reg[ 5 ] 0
+		reg[ 6 ] 0
+		reg[ 7 ] 0
+		Base: 0
+	Flags:
+		CF 0
+end state
+bit = 0
+
+@@@
+state:
+	pc 4
+	memory:
+		mem[ 0 ] 66065
+		mem[ 1 ] 66579
+		mem[ 2 ] 9220
+		mem[ 3 ] 431106
+		mem[ 4 ] 196608
+		mem[ 5 ] 463875
+		mem[ 6 ] 131574
+		mem[ 7 ] 196608
+		mem[ 8 ] 6
+		mem[ 9 ] 2
+	registers:
+		reg[ 0 ] 0
+		reg[ 1 ] 6
+		reg[ 2 ] 8
+		reg[ 3 ] 0
+		reg[ 4 ] 0
+		reg[ 5 ] 0
+		reg[ 6 ] 0
+		reg[ 7 ] 0
+		Base: 0
+	Flags:
+		CF 0
+end state
+bit = 0
+machine halted
+total of 9 instructions executed
+final state of machine:
+
+@@@
+state:
+	pc 5
+	memory:
+		mem[ 0 ] 66065
+		mem[ 1 ] 66579
+		mem[ 2 ] 9220
+		mem[ 3 ] 431106
+		mem[ 4 ] 196608
+		mem[ 5 ] 463875
+		mem[ 6 ] 131574
+		mem[ 7 ] 196608
+		mem[ 8 ] 6
+		mem[ 9 ] 2
+	registers:
+		reg[ 0 ] 0
+		reg[ 1 ] 6
+		reg[ 2 ] 8
+		reg[ 3 ] 0
+		reg[ 4 ] 0
+		reg[ 5 ] 0
+		reg[ 6 ] 0
+		reg[ 7 ] 0
+		Base: 0
+	Flags:
+		CF 0
+end state
