@@ -43,7 +43,7 @@ int main(int argc, char *argv[])
     int i;
     int numLabels=0;
     int num;
-	int addressField;
+    int addressField;
 
     char labelArray[MAXNUMLABELS][MAXLABELLENGTH];
     int labelAddress[MAXNUMLABELS];
@@ -128,11 +128,11 @@ int main(int argc, char *argv[])
 
 	/* check for enough arguments */
 	if ( (strcmp(opcode, "halt") && strcmp(opcode, ".fill")  && 
-		  strcmp(opcode, "jalr")  && strcmp(opcode, "bt") &&
-		  strcmp(opcode, "setbr") && arg2[0]=='\0') ||
+	      strcmp(opcode, "jalr")  && strcmp(opcode, "bt") &&
+	      strcmp(opcode, "setbr") && arg2[0]=='\0') ||
 	     (!strcmp(opcode, "jalr") && arg1[0]=='\0') ||
-		 (!strcmp(opcode, "bt") && arg1[0] == '\0') ||
-		 (!strcmp(opcode, "setbr") && arg0[0] == '\0') ||
+	     (!strcmp(opcode, "bt") && arg1[0] == '\0') ||
+	     (!strcmp(opcode, "setbr") && arg0[0] == '\0') ||
 	     (!strcmp(opcode, ".fill") && arg0[0]=='\0')) {
 	    printf("error at address %d: not enough arguments\n", address);
 	    exit(2);
@@ -171,7 +171,6 @@ int main(int argc, char *argv[])
 		printf("error: too many labels (label=%s)\n", label);
 		exit(2);
 	    }
-
 	    strcpy(labelArray[numLabels], label);
 	    labelAddress[numLabels++] = address;
 	}
@@ -293,7 +292,7 @@ int main(int argc, char *argv[])
 
 int readAndParse(FILE* inFilePtr, char* label, char* opcode, char* arg0, char* arg1, char* arg2, char* bit)
 {
-	char line[MAXLINELENGTH];
+    char line[MAXLINELENGTH];
     char *ptr = line;
 
     /* delete prior values */
