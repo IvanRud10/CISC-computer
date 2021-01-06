@@ -37,8 +37,8 @@ typedef struct stateStruct {
     int mem[NUMMEMORY];
     int reg[NUMREGS];
     int numMemory;
-	int BR;
-	int CF; 
+    int BR;
+    int CF; 
 } stateType;
 
 void printState(stateType *);
@@ -51,18 +51,18 @@ int main(int argc, char *argv[])
     char line[MAXLINELENGTH];
     stateType state;
     FILE *filePtr;
-	state.CF = 0;
+    state.CF = 0;
     if (argc != 2) {
-		printf("error: usage: %s <machine-code file>\n", argv[0]);
-		exit(1);
+	printf("error: usage: %s <machine-code file>\n", argv[0]);
+	exit(1);
     }
 
     /* initialize memories and registers */
     for (i=0; i<NUMMEMORY; i++) {
-		state.mem[i] = 0;
+	state.mem[i] = 0;
     }
     for (i=0; i<NUMREGS; i++) {
-		state.reg[i] = 0;
+	state.reg[i] = 0;
     }
 
     state.pc=0;
@@ -72,9 +72,9 @@ int main(int argc, char *argv[])
 
     filePtr = fopen(argv[1], "r");
     if (filePtr == NULL) {
-		printf("error: can't open file %s\n", argv[1]);
-		perror("fopen");
-		exit(1);
+	printf("error: can't open file %s\n", argv[1]);
+	perror("fopen");
+	exit(1);
     }
 
     for (state.numMemory=0; fgets(line, MAXLINELENGTH, filePtr) != NULL;
@@ -101,7 +101,7 @@ int main(int argc, char *argv[])
 void run(stateType state)
 {
     int arg0, arg1, arg2, addressField, NewAddr, bit;
-	int Temp;
+    int Temp;
     int instructions=0;
     int opcode;
     int maxMem=-1;	/* highest memory address touched during run */
