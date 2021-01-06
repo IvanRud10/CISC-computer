@@ -340,7 +340,7 @@ void printState(stateType *statePtr)
 int
 convertNum(int num)
 {
-    /* convert a 16-bit number into a 32-bit Sun integer */
+    /* convert a 8-bit number into a 16-bit Sun integer */
     if (num & (1<<7) ) {
 	num -= (1<<8);
     }
