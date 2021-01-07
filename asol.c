@@ -49,8 +49,7 @@ int main(int argc, char *argv[])
     int labelAddress[MAXNUMLABELS];
 
     if (argc != 3) {
-	printf("error: usage: %s <assembly-code-file> <machine-code-file>\n",
-	    argv[0]);
+	printf("error: usage: %s <assembly-code-file> <machine-code-file>\n", argv[0]);
 	exit(1);
     }
 
@@ -271,7 +270,6 @@ int main(int argc, char *argv[])
 						num = atoi(arg0);
 					}
 			}
-	/* printf("(address %d): %d (hex 0x%x)\n", address, num, num); */
 		fprintf(outFilePtr, "%d\n", num);
     }
 
