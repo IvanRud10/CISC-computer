@@ -331,9 +331,9 @@ void printState(stateType *statePtr)
 	for (i=0; i<NUMREGS; i++) {
 	    printf("\t\treg[ %d ] %d\n", i, statePtr->reg[i]);
 	}
-	printf("\t\tBase: %d\n", statePtr->BR);
-	printf("\tFlags:\n");
-	printf("\t\tCF %d\n", statePtr->CF);
+    printf("\t\tBase: %d\n", statePtr->BR);
+    printf("\tFlags:\n");
+    printf("\t\tCF %d\n", statePtr->CF);
     printf("end state\n");
 }
 
