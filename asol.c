@@ -80,9 +80,9 @@ int main(int argc, char *argv[])
 	/* check for illegal opcode */
 		if (strcmp(opcode, "add") && strcmp(opcode, "nand") &&
 			strcmp(opcode, "xadd") && strcmp(opcode, "xidiv") && strcmp(opcode, "div") && //arithmetic
-			strcmp(opcode, "and") && strcmp(opcode, "xor") && strcmp(opcode, "cmpl") && //logical
-			strcmp(opcode, "jmae") && strcmp(opcode, "jmle") &&			    //control commands
-			strcmp(opcode, "sbb") && strcmp(opcode, "bt") && strcmp(opcode, "rcr") &&   //CF
+			strcmp(opcode, "and") && strcmp(opcode, "xor") && strcmp(opcode, "cmpl") &&   //logical
+			strcmp(opcode, "jmae") && strcmp(opcode, "jmle") &&			      //control commands
+			strcmp(opcode, "sbb") && strcmp(opcode, "bt") && strcmp(opcode, "rcr") &&     //CF
 			strcmp(opcode, "load") && strcmp(opcode, "store") && strcmp(opcode, "setbr") && //BR
 			strcmp(opcode, "lw") && strcmp(opcode, "sw") &&
 			strcmp(opcode, "beq") && strcmp(opcode, "jalr") &&
@@ -98,9 +98,9 @@ int main(int argc, char *argv[])
 		if (!strcmp(opcode, "add") || !strcmp(opcode, "nand") ||
 			!strcmp(opcode, "lw") || !strcmp(opcode, "sw") ||
 			!strcmp(opcode, "div") || !strcmp(opcode, "xadd") || !strcmp(opcode, "xidiv") || //arithmetic
-			!strcmp(opcode, "and") || !strcmp(opcode, "xor") || !strcmp(opcode, "cmpl") || //logical
-			!strcmp(opcode, "jmae") || !strcmp(opcode, "jmle") ||			       //control commands
-			!strcmp(opcode, "sbb") || !strcmp(opcode, "bt") || !strcmp(opcode, "rcr") || //CF
+			!strcmp(opcode, "and") || !strcmp(opcode, "xor") || !strcmp(opcode, "cmpl") ||   //logical
+			!strcmp(opcode, "jmae") || !strcmp(opcode, "jmle") ||			         //control commands
+			!strcmp(opcode, "sbb") || !strcmp(opcode, "bt") || !strcmp(opcode, "rcr") ||     //CF
 			!strcmp(opcode, "beq") || !strcmp(opcode, "jalr"))
 		{
 			testRegArg(arg0);
@@ -108,8 +108,8 @@ int main(int argc, char *argv[])
 		}
 		if (!strcmp(opcode, "add") || !strcmp(opcode, "nand") ||
 			!strcmp(opcode, "div") || !strcmp(opcode, "xadd") || !strcmp(opcode, "xidiv") || //arithmetic
-			!strcmp(opcode, "and") || !strcmp(opcode, "xor") || !strcmp(opcode, "cmpl") ||	//logical
-			!strcmp(opcode, "sbb") || !strcmp(opcode, "rcr"))				//CF 
+			!strcmp(opcode, "and") || !strcmp(opcode, "xor") || !strcmp(opcode, "cmpl") ||	 //logical
+			!strcmp(opcode, "sbb") || !strcmp(opcode, "rcr"))				 //CF 
 		{
 			testRegArg(arg2);
 		}
