@@ -176,7 +176,6 @@ int main(int argc, char *argv[])
     }
 
     for (i=0; i<numLabels; i++) {
-	/* printf("%s = %d\n", labelArray[i], labelAddress[i]); */
     }
 
     /* now do second pass (print machine code, with symbols filled in as
